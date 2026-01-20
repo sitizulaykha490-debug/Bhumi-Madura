@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.bg-primary {
+    background-color: #8B4513 !important; /* Merah bata */
+}
+
+.text-primary {
+    color: #8B4513 !important;
+}
+
+.btn-secondary {
+    background-color: #4682B4; /* Biru laut */
+    border-color: #4682B4;
+}
+
+.btn-outline-primary {
+    border-color: #8B4513;
+    color: #8B4513;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+    background: linear-gradient(to right, #8B4513, #4682B4);
+    color: white;
+}
+
+.card {
+    border: none;
+    background-color: #F5F5DC; /* Cokelat tanah muda */
+}
+
+.bg-light {
+    background-color: #FAF9F6 !important; /* Abu terang */
+}
